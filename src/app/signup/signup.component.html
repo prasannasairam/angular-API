@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="col-md-4 offset-4 card mt-4">
+        <div class="card-body">
+            <h1>Sign up</h1>
+            <form #form="ngForm" (ngSubmit)="signup(form)">
+                <div class="form-group">
+                    <input ngModel name="email" type="email" class="form-control" placeholder="email" required>
+                </div>
+                <div class="form-group">
+                    <input ngModel name="password" type="password" class="form-control" placeholder="password" required>
+                </div>
+                <div class="form-group">
+                    <input type="phonenumber" name="phonenumber" class="form-control" placeholder="phone number" ngModel required>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="location" class="form-control" placeholder="location" ngModel required>
+                </div>
+                <div class="form-group">
+                    <button [disabled]="!form.valid" class="btn btn-secondary btn-block">signup</button>
+                    <span>Already have an account. just</span> <a routerLink="/login"> login</a>
+                </div> 
+            </form>
+        </div>
+    </div>
+</div>

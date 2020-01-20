@@ -2,6 +2,8 @@
 @import '~bootstrap/dist/css/bootstrap.css';
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap ');
 @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import '~ngx-toastr/toastr';
+
 
 body{
     padding:0;
@@ -22,4 +24,7 @@ body{
     top: 10px;
     left: 17px;
     color: #455;
+}
+.test.hide {
+    display: none;
 }

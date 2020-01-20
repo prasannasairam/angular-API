@@ -1,0 +1,26 @@
+svg {
+    fill:#fc8019;
+}
+.nav-link{
+   font-size: 16px;
+   font-weight: 600;
+   
+}
+/* .log{
+    margin-left: 180px;
+    margin-top: -44px;
+} */
+._1envo{
+    margin-top: 68px;
+    margin-left: 90px;
+}
+li{
+    margin-right: 10px;
+}
+.login:hover{
+color: orange;
+}
+
+.nav-link{
+    margin-top: 0px;
+}
